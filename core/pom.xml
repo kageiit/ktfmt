@@ -326,6 +326,18 @@
                                     -J--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</buildArg>
                                 <buildArg>
                                     -J--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.base/jdk.internal.misc=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.desktop/sun.awt=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.base/java.lang.reflect=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.base/java.lang=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.base/java.util=ALL-UNNAMED</buildArg>
+                                <buildArg>
+                                    -J--add-exports=java.base/java.util.concurrent.atomic=ALL-UNNAMED</buildArg>
                                 <buildArg>-march=compatibility</buildArg>
                             </buildArgs>
                         </configuration>
